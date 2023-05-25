@@ -1,0 +1,191 @@
+*{
+    font-family: monospace;
+}
+
+h1{
+    background-color: #0A3870;
+    font-size: 30px;
+    padding: 20px;
+    color: #F3F5FC;
+    font-style: normal;
+    text-align: center;
+
+}
+
+main {
+    background: #F3F5FC;
+    display: flex;
+}
+
+#logoAlura{
+    width: 120px;
+    height: 40px;
+    margin: 40px 0 0 40px;
+}
+
+#sector-mensaje{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+#mensaje{
+    box-sizing: border-box;
+    color: #0A3870;
+    background-color: #F3F5FC;
+    padding: 7px;
+    width: 90%;
+    height: 350px;
+    font-size: 25px;
+    margin:  90px 5px 10px 5px ;
+    vertical-align: top;
+    line-height: 1;
+}
+
+#mensaje::placeholder{
+    text-align: center;
+    color: #0A3870;
+}
+
+#advertencia{
+    display: block;
+    margin: 5px;
+    color: #495057;
+    font-size: 12px;
+    text-align: center;
+}
+
+#botones-principales{
+    display: block;
+    margin: 30px 15% 10px 15%;
+}
+
+.boton{
+    width: 200px;
+    padding: 13px;
+    border-radius: 25px;
+    border: solid #0A3870;
+    border-radius: 25px;
+    border: 1px solid #0A3870;
+    font-size: 15px;
+}
+
+#boton-Encriptar{
+    background: #0A3870;
+    color: #F3F5FC;
+    margin: 5px;
+}
+
+#boton-Desencriptar{
+    background: #b5b5b6;
+    margin: 5px;
+}
+
+#sector-rta{
+    width: 20%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:  space-around;
+    background-color: #Ffffff;
+    border-radius: 20px;
+}
+
+#sin-rta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#muñeco{
+    margin: 30px 20px 60px 20px;
+    width: 200px;
+}
+
+#sinMsj1{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+}
+
+#sinMsj2{
+    font-size: 12px;
+    text-align: center;
+    margin: 10px;
+}
+
+#texto-rta{
+    font-size: 20px;
+    color: #495057;
+}
+
+#boton-Copiar{
+    margin-top: 30px;
+}
+
+footer{
+    background: #0A3870;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #F3F5FC;
+}
+
+@media (max-width: 760px) {
+    main{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    #sector-mensaje{
+        width: 80%;
+        margin: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+    #botones-principales{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #muñeco{
+        display: none;
+    }
+
+    #sector-rta{
+        width: 80%;
+        margin: 0 10% 10% 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
+
+@media (max-width: 450px) {
+
+
+    #botones-principales{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+}

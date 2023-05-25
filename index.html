@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador Ruth</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="style.CSS">
+</head>
+<body>
+    <header>
+        <h1>Encriptador</h1>
+    </header>
+    <main>
+        <img src="Img/Logo (3).png" alt="alura" id="logoAlura">
+        <div id="sector-mensaje">
+            <textarea name="ingresa-mensaje" id="mensaje" placeholder="Ingrese aquí su texto"></textarea>
+            <p id="advertencia">⚠ Solo letras minusculas y sin acentos</p>
+            <div id="botones-principales">
+                <input type="submit" value="Encriptar" class="boton" id="boton-Encriptar">
+                <input type="submit" value="Desencriptar" class="boton" id="boton-Desencriptar">
+            </div>
+        </div>
+        <div id="sector-rta">
+            <p id="texto-rta"></p>
+            <div id="sin-rta">
+                <img src="Img/Muñeco.png" alt="Muñeco" id="muñeco">
+                <p id="sinMsj1">Ningún mensaje fue encontrado</p>
+                <p id="sinMsj2">Ingrese el texto que desee encriptar o desencriptar</p>
+            </div>    
+            <input type="submit" value="Copiar" id="boton-Copiar" class="boton">
+        </div>
+    </main>
+    <footer>
+        <a href="https://github.com/rlovece"> <p>By Ruth Lovece</p> </a>
+    </footer>
+    <script src="encriptador.js"></script>
+</body>
+</html>
